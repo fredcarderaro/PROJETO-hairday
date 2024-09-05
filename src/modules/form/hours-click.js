@@ -11,6 +11,6 @@ export function hoursClick() {
 
       // Adiciona a classe hour-selected ao item clicado
       selected.target.classList.add("hour-selected");
-    })
-  })
+    });
+  });
 }
