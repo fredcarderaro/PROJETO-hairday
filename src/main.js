@@ -10,6 +10,7 @@ import "./styles/schedule.css";
 
 // Importações JS
 import "./modules/form/submit.js";
+import "./modules/form/hours-click.js";
 import "./modules/page-load.js";
 import "./modules/schedules/load.js";
 
