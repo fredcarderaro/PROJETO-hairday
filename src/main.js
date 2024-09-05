@@ -10,6 +10,7 @@ import "./styles/schedule.css";
 
 // Importações JS
 import "./modules/form/submit.js";
+import "./modules/load.js";
 
 // TESTANDO O DAYJS
 // import dayjs from "dayjs";
