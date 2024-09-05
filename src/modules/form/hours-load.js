@@ -42,7 +42,7 @@ export function hoursLoad({ date }) {
 
 function hourHeaderAdd(title) {
   const header = document.createElement("li");
-  li.classList.add("hour-period");
+  header.classList.add("hour-period");
 
   header.textContent = title;
 
