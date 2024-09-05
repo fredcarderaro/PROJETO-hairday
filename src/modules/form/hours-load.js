@@ -32,7 +32,6 @@ export function hoursLoad({ date, dailySchedules }) {
   opening.forEach(({ hour, available }) => {
     const li = document.createElement("li");
     li.classList.add("hour");
-    console.log("AVAL:", available)
     li.classList.add(available ? "hour-available" : "hour-unavailable");  // Adiciona a forma conforme resultado da condicional
 
     li.textContent = hour;
