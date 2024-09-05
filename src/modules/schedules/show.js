@@ -44,6 +44,9 @@ export function scheduleShow({ dailySchedules }) {
       } else {
         periodNight.appendChild(item);
       }
+
+
+
     });
 
 
